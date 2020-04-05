@@ -1,0 +1,107 @@
+.main-bar {
+    height: 1349px;
+    width: 6254px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    width: 100%;
+    transition: 2s all;
+
+    .dark-active {
+        background: #101010;
+        height: 1349px;
+        width: 6254px;
+        overflow: hidden;
+        font-size: 14px;
+        line-height: 1.71429;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: Poppins, sans-serif;
+        color: #1d1d24;
+        font-weight: 400;
+        display: block;
+
+        .header-area {
+            display: flex;
+            z-index: 999;
+            height: 1249px;
+            width: 107px;
+            justify-content: space-between;
+            padding: 0px 50px;
+            text-align: left;
+            transition: 3s all;
+
+            .header-wraper {
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 0px;
+                flex-wrap: wrap;
+
+                .header-left {
+                    width: 582, 59px;
+                    height: 62px;
+                    align-items: center !important;
+                    display: flex !important;
+
+
+
+                    ul {
+                        li {
+                            a {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+
+                    .logo {
+                        display: block;
+                        text-align: left;
+                    }
+                }
+
+                .header-right {
+                    width: 325px;
+                    height: 46px;
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+
+                    .social {
+                        width: 168px;
+                        margin: -6px;
+                        height: 39px;
+                        padding: 0;
+                        margin: -6px;
+                        display: flex !important;
+
+                    }
+
+
+                    .rn-btn {
+                        padding: 0 25px;
+                        height: 46px;
+                        display: inline-block;
+                        line-height: 42px;
+                        border: 2px solid #b1b4c1;
+                        border-radius: 6px;
+                        color: #c6c9d8;
+                        font-size: 14px;
+                        position: relative;
+                        z-index: 2;
+                    }
+
+                }
+
+
+            }
+
+        }
+
+
+    }
+
+}
